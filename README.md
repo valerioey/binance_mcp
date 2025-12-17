@@ -1,5 +1,9 @@
 # Binance MCP stdio server
 
+<a href="https://glama.ai/mcp/servers/@valerioey/binance-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@valerioey/binance-mcp/badge" />
+</a>
+
 Server MCP minimale in Python che espone operazioni Binance via JSON-RPC 2.0 su `stdin`/`stdout`.
 
 ## Setup
