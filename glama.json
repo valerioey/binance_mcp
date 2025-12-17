@@ -1,0 +1,22 @@
+{
+  "name": "binance-stdio-mcp",
+  "version": "0.1.0",
+  "description": "MCP stdio server for Binance account, orders, trades and market data.",
+  "license": "MIT",
+  "entry": {
+    "command": "python3",
+    "args": [
+      "binance_mcp_server.py"
+    ],
+    "env": {
+      "BINANCE_API_KEY": "<required>",
+      "BINANCE_API_SECRET": "<required>"
+    }
+  },
+  "mcp": {
+    "transport": "stdio"
+  },
+  "links": {
+    "readme": "README.md"
+  }
+}
