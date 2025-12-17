@@ -28,6 +28,9 @@ Il processo resta in ascolto su `stdin` e restituisce risposte su `stdout` (una 
 - `place_order` → invia ordine market/limit (o test se `test: true`)
 - `get_candles` → candele/klines pubbliche per `symbol` e `interval`
 
+## Funzioni esposte all'LLM (tools)
+Il server espone i metodi sopra come strumenti MCP via JSON-RPC (stdio). Non ci sono ulteriori tool oltre ai metodi elencati.
+
 ## Esempi di richieste
 Invia un JSON per riga allo stdin del processo.
 
